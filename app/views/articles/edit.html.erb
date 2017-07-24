@@ -1,4 +1,4 @@
-<h1> articles </h1>
+<h1> edit </h1>
 
 	<% if @article.errors.any? %>
 	<h3>Se produjeron los siguientes errores:</h3>
@@ -22,4 +22,5 @@
 		<%= f.submit %>
 	</p>
 <% end %>
+
 <%= link_to 'back', articles_path %>
